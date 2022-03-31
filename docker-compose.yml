@@ -1,5 +1,10 @@
 version: '3'
 services:
+  ctfd:
+    build: .
+    container_name: ctfd
+    ports:
+      - "8000:8000"
   crypto_easy_prng:
     build: ./crypto/easy_prng
     container_name: crypto_easy_prng

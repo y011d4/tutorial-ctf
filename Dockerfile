@@ -1,0 +1,1 @@
+FROM ctfd/ctfd:latest
