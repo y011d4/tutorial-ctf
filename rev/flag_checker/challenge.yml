@@ -1,0 +1,22 @@
+name: "Flag Checker"
+author: "y011d4"
+category: rev
+description: "入力した文字列がフラグと一致しているか判定するプログラムです"
+value: 100
+type: standard
+
+image: null
+host: null
+
+flags:
+  - "FLAG{you_can_see_this_only_by_strings_command}"
+
+tags:
+  - rev
+
+files:
+  - dist/flag_checker
+
+state: visible
+
+version: "0.1"
