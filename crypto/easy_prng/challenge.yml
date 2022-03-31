@@ -1,0 +1,23 @@
+name: "Easy PRNG"
+author: "y011d4"
+category: crypto
+description: "線形合同法は下位ビットがランダムにならないという問題があるので、下位ビットを切り捨てて使います。軽量でセキュアな乱数生成器の完成です！"
+value: 100
+type: standard
+
+image: null
+host: null
+connection_info: nc ctf.y011d4.com 50000
+
+flags:
+  - "FLAG{LCG_is_very_easy_to_crack}"
+
+tags:
+  - crypto
+
+files:
+  - dist/challenge.py
+
+state: visible
+
+version: "0.1"
