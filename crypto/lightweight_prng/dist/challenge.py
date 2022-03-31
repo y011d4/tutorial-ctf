@@ -35,5 +35,6 @@ while True:
     r = prng()
     if guess == r:
         print(f"Success! The flag is {FLAG}")
+        break
     else:
         print(f"{r}")
