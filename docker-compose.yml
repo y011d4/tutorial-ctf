@@ -5,9 +5,9 @@ services:
     container_name: ctfd
     ports:
       - "8000:8000"
-  crypto_easy_prng:
-    build: ./crypto/easy_prng
-    container_name: crypto_easy_prng
+  crypto_lightweight_prng:
+    build: ./crypto/lightweight_prng
+    container_name: crypto_lightweight_prng
     ports:
       - "50000:1337"
     restart: always
