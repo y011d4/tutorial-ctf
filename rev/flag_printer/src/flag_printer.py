@@ -41,7 +41,7 @@ if __name__ == "__main__":
     for i in range(len(data)):
         for j in range(32, 128):
             tmp = flag + chr(j)
-            if sum_range(tmp) == data[i]:
-                flag += chr(j)
-                print(chr(j), end="", flush=True)
-                break
+            if sum_range(tmp) != data[i]:
+                continue
+            flag += chr(j)
+            print(chr(j), end="", flush=True)
