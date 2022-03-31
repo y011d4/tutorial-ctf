@@ -1,8 +1,6 @@
 from flask import Flask, render_template_string, request
 
 app = Flask(__name__)
-# TODO: implement login feature using this secret key
-app.secret_key = b"FAKE{this_is_a_fake_flag}"
 
 
 @app.route("/", methods=["GET"])
@@ -10,7 +8,7 @@ def index():
     return """
     <div>
     This is a web app that enables to render your note from a simple query!
-    <a href="/render?title=Example&content=this is a cool app.">Example</a>
+    <a href="/render?title=Example&content=NOTE: My secret file is at /app/flag.txt :)">Example</a>
     </div>
     <div>
     You can also use this as a simple calculator using power of Jinja2.
