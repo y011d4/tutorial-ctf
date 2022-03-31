@@ -15,7 +15,7 @@ tags:
   - rev
 
 files:
-  - dist/flag_printer.cpython-36.pyc
+  - dist/flag_printer.cpython-38.pyc
 
 state: visible
 
