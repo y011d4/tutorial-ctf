@@ -15,7 +15,7 @@ tags:
   - rev
 
 files:
-  - dist/flag_checker
+  - dist/flag_checker_revisited
 
 state: visible
 

@@ -1,0 +1,22 @@
+name: "Flag Printer"
+author: "y011d4"
+category: rev
+description: "It's a free flag! But python is too slow..."
+value: 100
+type: standard
+
+image: null
+host: null
+
+flags:
+  - "FLAG{python_ha_waruku_nai}"
+
+tags:
+  - rev
+
+files:
+  - dist/flag_printer.cpython-36.pyc
+
+state: visible
+
+version: "0.1"
