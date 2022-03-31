@@ -20,6 +20,7 @@ int main() {
   char input[0x100];
   char content[0x100];
   while (1) {
+    printf("filename?> ");
     scanf("%255s", input);
     if (strcmp(input, "exit") == 0) {
       return 0;
