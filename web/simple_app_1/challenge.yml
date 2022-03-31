@@ -1,0 +1,23 @@
+name: "Simple App"
+author: "y011d4"
+category: rev
+description: "Flask の勉強がてら簡単なウェブアプリを作ったよ。 app.secret_key ってなんだろう、とりあえず secret な値を入れておこう！！！１"
+value: 100
+type: standard
+
+image: null
+host: null
+connection_info: nc ctf.y011d4.com 50001
+
+flags:
+  - "FLAG{Jinja2_can_do_anything}"
+
+tags:
+  - web
+
+files:
+  - dist/app.py
+
+state: visible
+
+version: "0.1"

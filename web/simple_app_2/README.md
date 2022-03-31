@@ -1,0 +1,2 @@
+is_admin でログイン可能なものをつくる
+secret_key で署名

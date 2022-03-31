@@ -7,6 +7,7 @@ type: standard
 
 image: null
 host: null
+connection_info: nc ctf.y011d4.com 50002
 
 flags:
   - "FLAG{printf_is_dangerous!}"
