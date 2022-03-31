@@ -1,0 +1,23 @@
+name: "Hash Calculator"
+author: "y011d4"
+category: rev
+description: "任意のファイルの先頭0xFFバイトでSHA256を計算します。フラグは /app/flag.txt にあるのでハッシュを計算してみてね。"
+value: 100
+type: standard
+
+image: null
+host: null
+
+flags:
+  - "FLAG{printf_is_dangerous!}"
+
+tags:
+  - pwn
+
+files:
+  - dist/vuln
+  - dist/vuln.c
+
+state: visible
+
+version: "0.1"
