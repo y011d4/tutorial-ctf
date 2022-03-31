@@ -1,4 +1,4 @@
-name: "Easy PRNG"
+name: "Lightweight PRNG"
 author: "y011d4"
 category: crypto
 description: "線形合同法は下位ビットがランダムにならないという問題があるので、下位ビットを切り捨てて使います。軽量でセキュアな乱数生成器の完成です！"
