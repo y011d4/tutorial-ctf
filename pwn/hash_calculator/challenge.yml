@@ -1,6 +1,6 @@
 name: "Hash Calculator"
 author: "y011d4"
-category: rev
+category: pwn
 description: "任意のファイルの先頭0xFFバイトでSHA256を計算します。フラグは /app/flag.txt にあるのでハッシュを計算してみてね。"
 value: 100
 type: standard
