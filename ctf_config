@@ -1,0 +1,14 @@
+[config]
+url = http://ctf.y011d4.com
+access_token = 
+
+[challenges]
+crypto/lightweight_prng = crypto/lightweight_prng
+crypto/encrypt_factor = crypto/encrypt_factor
+web/simple_app_1 = web/simple_app_1
+web/janken_master = web/janken_master
+rev/flag_checker = rev/flag_checker
+rev/flag_checker_revisited = rev/flag_checker_revisited
+rev/flag_printer = rev/flag_printer
+pwn/hash_calculator = pwn/hash_calculator
+pwn/login_shell = pwn/login_shell
