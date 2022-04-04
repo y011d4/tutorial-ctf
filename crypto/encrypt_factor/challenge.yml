@@ -1,0 +1,24 @@
+name: "Encrypt Factor"
+author: "y011d4"
+category: crypto
+description: "RSA では公開鍵の素因数がバレるとまずいらしい…素因数を暗号化しなくては"
+value: 100
+type: standard
+
+image: null
+host: null
+connection_info: ""
+
+flags:
+  - "FLAG{factors_should_be_hidden_at_any_time}"
+
+tags:
+  - crypto
+
+files:
+  - dist/challenge.py
+  - dist/output.txt
+
+state: visible
+
+version: "0.1"
