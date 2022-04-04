@@ -1,0 +1,24 @@
+name: "Login Shell"
+author: "y011d4"
+category: pwn
+description: "パスワードを入力してログインし、 /app/flag.txt のファイルを開いてください。 `nc ctf.y011d4.com 50004`"
+value: 100
+type: standard
+
+image: null
+host: null
+connection_info: nc ctf.y011d4.com 50004
+
+flags:
+  - "FLAG{SOME_PADDING_STRINGsecret}"
+
+tags:
+  - pwn
+
+files:
+  - dist/vuln
+  - dist/vuln.c
+
+state: visible
+
+version: "0.1"

@@ -29,3 +29,9 @@ services:
     ports:
       - "50003:5000"
     restart: always
+  pwn_login_shell:
+    build: ./pwn/login_shell
+    container_name: pwn_login_shell
+    ports:
+      - "50004:1337"
+    restart: always
