@@ -1,0 +1,23 @@
+name: "Janken Master"
+author: "y011d4"
+category: web
+description: "janken master 決定戦 http://ctf.y011d4.com:50003"
+value: 100
+type: standard
+
+image: null
+host: null
+connection_info: http://ctf.y011d4.com:50003
+
+flags:
+  - "FLAG{Y0u_4r3_th3_j4nk3n_m4st3r!!!}"
+
+tags:
+  - web
+
+files:
+  - dist/app.py
+
+state: visible
+
+version: "0.1"

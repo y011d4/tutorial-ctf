@@ -23,3 +23,9 @@ services:
     ports:
       - "50002:1337"
     restart: always
+  web_janken_master:
+    build: ./web/janken_master
+    container_name: web_janken_master
+    ports:
+      - "50003:5000"
+    restart: always
