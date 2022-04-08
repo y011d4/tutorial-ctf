@@ -77,7 +77,7 @@ services:
     restart: always
   web_img_exhibition:
     build: ./web/img_exhibition
-    container_name: web_janken_master
+    container_name: web_img_exhibition
     ports:
       - "50005:1337"
     restart: always
