@@ -22,22 +22,23 @@ class PRNG:
         return self.state >> M
 
 
-prng = PRNG()
+if __name__ == "__main__":
+    prng = PRNG()
 
-while True:
-    print("guess?> ", end="", flush=True)
-    inp = input()
-    if inp == "exit":
-        break
-    guess: int
-    try:
-        guess = int(inp)
-    except ValueError:
-        print("You should input number")
-        continue
-    r = prng()
-    if guess == r:
-        print(f"Success! The flag is {FLAG}")
-        break
-    else:
-        print(f"{r}")
+    while True:
+        print("guess?> ", end="", flush=True)
+        inp = input()
+        if inp == "exit":
+            break
+        guess: int
+        try:
+            guess = int(inp)
+        except ValueError:
+            print("You should input number")
+            continue
+        r = prng()
+        if guess == r:
+            print(f"Success! The flag is {FLAG}")
+            break
+        else:
+            print(f"{r}")

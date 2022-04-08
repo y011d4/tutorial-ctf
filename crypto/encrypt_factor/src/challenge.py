@@ -13,13 +13,14 @@ def gen_key():
     return (N, e), (p, q)
 
 
-m = bytes_to_long(FLAG)
-pubkey, privkey = gen_key()
-N, e = pubkey
-p, q = privkey
-c_flag = pow(m, e, N)
-c_factor = pow(p, e, N)
-print(f"{N=}")
-print(f"{e=}")
-print(f"{c_flag=}")
-print(f"{c_factor=}")
+if __name__ == "__main__":
+    m = bytes_to_long(FLAG)
+    pubkey, privkey = gen_key()
+    N, e = pubkey
+    p, q = privkey
+    c_flag = pow(m, e, N)
+    c_factor = pow(p, e, N)
+    print(f"{N = }")
+    print(f"{e = }")
+    print(f"{c_flag = }")
+    print(f"{c_factor = }")
