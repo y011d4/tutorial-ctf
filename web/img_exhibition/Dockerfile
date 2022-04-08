@@ -1,5 +1,5 @@
 FROM python:3.10-alpine
-RUN apk add --update --no-cache chromium chromium-chromedriver
+RUN apk add --update --no-cache chromium chromium-chromedriver build-base libffi-dev
 
 RUN pip3 install Flask selenium
 COPY src/ /app/
