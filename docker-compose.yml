@@ -51,36 +51,36 @@ services:
     ports:
       - "50000:1337"
     restart: always
-  web_simple_app_1:
-    build: ./web/simple_app_1
-    container_name: web_simple_app_1
-    ports:
-      - "50001:5000"
-    restart: always
-  pwn_hash_calculator:
-    build: ./pwn/hash_calculator
-    container_name: pwn_hash_calculator
-    ports:
-      - "50002:1337"
-    restart: always
-  web_janken_master:
-    build: ./web/janken_master
-    container_name: web_janken_master
-    ports:
-      - "50003:5000"
-    restart: always
-  pwn_login_shell:
-    build: ./pwn/login_shell
-    container_name: pwn_login_shell
-    ports:
-      - "50004:1337"
-    restart: always
-  web_img_exhibition:
-    build: ./web/img_exhibition
-    container_name: web_img_exhibition
-    ports:
-      - "50005:1337"
-    restart: always
+  # web_simple_app_1:
+  #   build: ./web/simple_app_1
+  #   container_name: web_simple_app_1
+  #   ports:
+  #     - "50001:5000"
+  #   restart: always
+  # pwn_hash_calculator:
+  #   build: ./pwn/hash_calculator
+  #   container_name: pwn_hash_calculator
+  #   ports:
+  #     - "50002:1337"
+  #   restart: always
+  # web_janken_master:
+  #   build: ./web/janken_master
+  #   container_name: web_janken_master
+  #   ports:
+  #     - "50003:5000"
+  #   restart: always
+  # pwn_login_shell:
+  #   build: ./pwn/login_shell
+  #   container_name: pwn_login_shell
+  #   ports:
+  #     - "50004:1337"
+  #   restart: always
+  # web_img_exhibition:
+  #   build: ./web/img_exhibition
+  #   container_name: web_img_exhibition
+  #   ports:
+  #     - "50005:1337"
+  #   restart: always
 
 networks:
     default:
