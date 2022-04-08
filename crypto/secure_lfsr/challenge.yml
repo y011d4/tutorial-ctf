@@ -1,0 +1,23 @@
+name: "Secure LFSR"
+author: "y011d4"
+category: crypto
+description: "LFSR の出力を間引くことでセキュアにしました！"
+value: 100
+type: standard
+
+image: null
+host: null
+
+flags:
+  - "FLAG{u_sh0ld_n0t_us3_LFSR_f0r_s3curity}"
+
+tags:
+  - crypto
+
+files:
+  - dist/challenge.py
+  - dist/output.txt
+
+state: visible
+
+version: "0.1"
