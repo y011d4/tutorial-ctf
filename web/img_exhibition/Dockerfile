@@ -1,5 +1,5 @@
-FROM python:3.10-slim-buster
-RUN apt update -y && apt install -y socat chromium chromium-chromedriver && rm -rf /var/lib/apt/lists/*
+FROM python:3.10-alpine
+RUN apk add --update --no-cache chromium chromium-chromedriver
 
 RUN pip3 install Flask selenium
 COPY src/ /app/
