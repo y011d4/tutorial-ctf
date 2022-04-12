@@ -14,7 +14,7 @@ def index():
     <div>
     <form method="get" action="/preview">
       <div>
-        <label for="url">URL: </label><input type="text" id="url" name="url" value="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png">
+        <label for="url">Image URL: </label><input type="text" id="url" name="url" value="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png">
         <label for="title">title: </label><input type="text" id="title" name="title" value="Google">
       </div>
       <div>
@@ -43,9 +43,9 @@ def report():
         return make_response("Please specify url and title!", 400)
     url = data["url"]
     title = data["title"]
-    crawl(url, title)
+    crawl(url, title)  # admin will see /preview?url={url}&title={title}
     return make_response("Done!", 200)
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=1337, debug=True)
+    app.run(host="0.0.0.0", port=1337)

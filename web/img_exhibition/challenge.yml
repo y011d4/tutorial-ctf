@@ -1,7 +1,7 @@
 name: "Img Exhibition"
 author: "y011d4"
 category: web
-description: "好きな画像を選んでね http://ctf.y011d4.com:50005"
+description: "ネット上で好きな画像を見つけたら admin に教えてください http://ctf.y011d4.com:50005"
 value: 100
 type: standard
 
@@ -10,7 +10,7 @@ host: null
 connection_info: http://ctf.y011d4.com:50005
 
 flags:
-  - "FLAG{img_is_not_images_as_usual_in_CTF}"
+  - "FLAG{img_is_not_image_usually_in_CTF}"
 
 tags:
   - web

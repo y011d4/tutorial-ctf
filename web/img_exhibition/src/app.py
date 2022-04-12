@@ -14,7 +14,7 @@ def index():
     <div>
     <form method="get" action="/preview">
       <div>
-        <label for="url">URL: </label><input type="text" id="url" name="url" value="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png">
+        <label for="url">Image URL: </label><input type="text" id="url" name="url" value="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png">
         <label for="title">title: </label><input type="text" id="title" name="title" value="Google">
       </div>
       <div>

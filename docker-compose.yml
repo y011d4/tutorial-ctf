@@ -75,12 +75,12 @@ services:
   #   ports:
   #     - "50004:1337"
   #   restart: always
-  # web_img_exhibition:
-  #   build: ./web/img_exhibition
-  #   container_name: web_img_exhibition
-  #   ports:
-  #     - "50005:1337"
-  #   restart: always
+  web_img_exhibition:
+    build: ./web/img_exhibition
+    container_name: web_img_exhibition
+    ports:
+      - "50005:1337"
+    restart: always
 
 networks:
     default:
