@@ -9,7 +9,7 @@ void print_hash(char *s) {
   SHA256_Update(&sha_ctx, s, strlen(s));
   SHA256_Final(digest, &sha_ctx);
   for (int i = 0; i < SHA256_DIGEST_LENGTH; i++) {
-    printf("%x", digest[i]);
+    printf("%02x", digest[i]);
   }
   puts("");
 }
