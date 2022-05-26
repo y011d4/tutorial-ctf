@@ -17,8 +17,8 @@ class LFSR:
     def rand_char(self):
         res = 0
         for _ in range(8):
-            _ = self._step()  # skip one step to make it secure!
             res *= 2
+            _ = self._step()  # skip one step to make it secure!
             res += self._step()
         return res
 

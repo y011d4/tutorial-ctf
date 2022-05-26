@@ -7,8 +7,6 @@ def gen_key():
     e = 65537
     p = getStrongPrime(1024, e=e)
     q = getStrongPrime(1024, e=e)
-    if q > p:
-        q, p = p, q
     N = p * q
     return (N, e), (p, q)
 
